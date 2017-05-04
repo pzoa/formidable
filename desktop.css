@@ -5,7 +5,7 @@
 
 .bann{
 	width: 100%;
-	background: #4ABDE2;
+	background: #3EA0C0;
 }
 
 .banner{
@@ -71,3 +71,80 @@ h2 {
 	border-radius: 30px;
 	margin-top: 20px;
 }
+
+.btn1:hover{
+	color: #4ABDE2;
+	background: white;
+}
+.cam2{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	align-items: center;
+}
+
+.what{
+	font-size: 20px;
+	color: gray;
+}
+
+.gran{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.wire{
+	color: gray;
+	font-size: 20px;
+	justify-content: flex-end;
+}
+
+.cam3{
+	background: #E9E7E7;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cu1{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.cu1-1{
+	background: white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border-top: 15px #4ABDE2 solid;
+	border-left: 15px #4ABDE2 solid;
+}
+
+.tt{
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.cu2{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+h3{
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.btn2{
+	text-decoration: none;
+}
+
