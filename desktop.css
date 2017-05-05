@@ -29,6 +29,10 @@ nav {
 	color: white;
 }
 
+.men{
+	display: none;
+}
+
 h1 li a{
 	font-family: "playfair";
 	color: white;
@@ -76,6 +80,7 @@ h2 {
 	color: #4ABDE2;
 	background: white;
 }
+
 .cam2{
 	display: flex;
 	flex-direction: column;
@@ -113,16 +118,8 @@ h2 {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 45px;
 
-}
-
-.cu1-1{
-	background: white;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	border-top: 15px #4ABDE2 solid;
-	border-left: 15px #4ABDE2 solid;
 }
 
 .tt{
@@ -132,6 +129,8 @@ h2 {
 }
 
 .cu2{
+	padding-bottom: 40px;
+	padding-top: 25px;
 	width: 40%;
 	display: flex;
 	flex-direction: column;
@@ -139,12 +138,137 @@ h2 {
 
 h3{
 	font-size: 25px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 }
 
+.foo-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.btn2{
+.fooo{
 	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
+
+.foo{
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #3EA0C0;
+	font-size: 20px;
+}
+
+.jj{
+	width: 100%;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1296px) {
+	.log{
+		width: 110%;
+	}
+
+	.btn1{
+		width: 60%;
+	}
+
+	.cam3{
+		justify-content: center;
+	}
+
+	.cu2{
+		width: 95%;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+@media (max-width: 1187px) {
+	.cam3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1125px) {
+	.cont{
+		flex-direction: column;
+	}
+
+	.coniz{
+		align-items: center;
+	}
+
+	.log{
+		padding-top: 50px;
+		width: 100%;
+	}
+
+	.btn1 {
+	    width: 61%;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	    margin-top: 45px;
+	}
+
+	.conder {
+	    align-items: center;
+	    justify-content: center;
+	    display: flex;
+	}
+}
+
+@media (max-width: 725px){
+	.in{
+		display: none;
+	}
+
+	.men{
+		display: block;
+		width: 70%;
+	}
+}
+
+@media (max-width: 687px) {
+
+	.jj{
+		flex-direction: column;
+	}
+
+		.li-foo{
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 610px) {
+	h2{
+		text-align: center;
+	}
+
+	p{
+		text-align: center;
+	}
+
+	.dos{
+		width: 100%;
+	}
+
+	.jj{
+		flex-direction: column;
+	}
+}
+
+
 
