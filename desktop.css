@@ -81,6 +81,14 @@ h2 {
 	background: white;
 }
 
+.log{
+	position: relative;
+    left: 77px;
+    top: 111px;
+    width: 128%;
+    overflow-x: hidden;
+}
+
 .cam2{
 	display: flex;
 	flex-direction: column;
@@ -174,8 +182,16 @@ h3{
 }
 
 @media (max-width: 1296px) {
+	body{
+		overflow-x: hidden;
+	}
+
 	.log{
-		width: 110%;
+	position: relative;
+    left: 77px;
+    top: 111px;
+    width: 128%;
+    overflow-x: hidden;
 	}
 
 	.btn1{
@@ -214,6 +230,7 @@ h3{
 	.log{
 		padding-top: 50px;
 		width: 100%;
+		position: inherit;
 	}
 
 	.btn1 {
