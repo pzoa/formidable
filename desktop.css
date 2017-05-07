@@ -270,6 +270,10 @@ h3{
 }
 
 @media (max-width: 610px) {
+	.in{
+		display: none;
+	}
+	
 	h2{
 		text-align: center;
 	}
