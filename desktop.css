@@ -1,0 +1,310 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.bann{
+	width: 100%;
+	background: #3EA0C0;
+}
+
+.banner{
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+}
+
+nav { 
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nader{
+	flex-direction: flex-end;
+	list-style: none;
+	color: white;
+}
+
+.men{
+	display: none;
+}
+
+h1 li a{
+	font-family: "playfair";
+	color: white;
+	text-decoration: none;
+
+}
+.cont{
+	margin-top: 40px;
+	font-family: "Roboto";
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.coniz{
+	color: white;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 42px;
+}
+
+.btn1 {
+	color: white;
+	width: 36%;
+	text-decoration: none;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid white;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.btn1:hover{
+	color: #4ABDE2;
+	background: white;
+}
+
+.log{
+	position: relative;
+    left: 77px;
+    top: 111px;
+    width: 128%;
+    overflow-x: hidden;
+}
+
+.cam2{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	align-items: center;
+}
+
+.what{
+	font-size: 20px;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+}
+
+.gran{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.wire{
+	color: gray;
+	font-size: 20px;
+	justify-content: flex-end;
+}
+
+.wired{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey
+}
+
+.cam3{
+	background: #E9E7E7;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cu1{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 45px;
+
+}
+
+.tt{
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cu2{
+	padding-bottom: 40px;
+	padding-top: 25px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+h3{
+	font-size: 25px;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+.foo-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fooo{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.foo{
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #4abde2;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.jj{
+	width: 100%;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1296px) {
+	body{
+		overflow-x: hidden;
+	}
+
+	.log{
+	position: relative;
+    left: 77px;
+    top: 111px;
+    width: 128%;
+    overflow-x: hidden;
+	}
+
+	.btn1{
+		width: 60%;
+	}
+
+	.cam3{
+		justify-content: center;
+	}
+
+	.cu2{
+		width: 95%;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+@media (max-width: 1187px) {
+	.cam3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1125px) {
+	.cont{
+		flex-direction: column;
+	}
+
+	.coniz{
+		align-items: center;
+	}
+
+	.log{
+		padding-top: 50px;
+		width: 100%;
+		position: inherit;
+	}
+
+	.btn1 {
+	    width: 61%;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	    margin-top: 45px;
+	}
+
+	.conder {
+	    align-items: center;
+	    justify-content: center;
+	    display: flex;
+	}
+}
+
+@media (max-width: 725px){
+	.in{
+		display: none;
+	}
+
+	.men{
+		display: block;
+		width: 70%;
+	}
+}
+
+@media (max-width: 687px) {
+
+	.jj{
+		flex-direction: column;
+	}
+
+		.li-foo{
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 610px) {
+
+
+	h2{
+		text-align: center;
+	}
+
+	p{
+		text-align: center;
+	}
+
+	.dos{
+		width: 100%;
+	}
+
+	.jj{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 360px) {
+
+	.men{
+		display: block;
+	}
+}
+
+
+
