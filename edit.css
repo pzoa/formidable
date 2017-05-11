@@ -73,3 +73,60 @@ span{
 	color: gray;
 	padding-bottom: 10px;
 }
+
+.comen{
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+.ca-3{
+	padding-bottom: 20px;
+}
+
+.cont-4{
+	padding-bottom: 30px;
+}
+
+.option{
+	font-size: 	17px;
+	color: gray;
+	padding-top: 10px;
+}
+
+.te{
+	margin-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.cont-5{
+	background: #F9F9F9;
+	padding-top: 51px;
+}
+
+.pre{
+	padding-top: 10px;
+}
+
+.cu{
+	width: 100%;
+	margin-bottom: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.save{
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 19px;
+	margin-bottom: 40px;
+	border-radius: 100px;
+	background: #4ABDE2;
+	border: none;
+	color: white;
+}
+
