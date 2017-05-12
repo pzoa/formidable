@@ -7,6 +7,7 @@ p {
 	color: gray;
 }
 
+
 .login {
 	display: flex;
 	justify-content: flex-end;
@@ -34,19 +35,28 @@ p {
 
 .pro {
 	color: gray;
-	padding-left: 10px;
-	font-size: 18px;
+	margin-left: 10px;
+	font-size: 16px;
 }
 
-.pro:hover {
-	color: black;
+li:hover{
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px black solid;
 }
 
+.pro:hover{
+	text-decoration: none;
+}
 
 .cont-2{
 	padding-bottom: 70px;
 	padding-top: 70px;
 	border-bottom: gray 1px solid;
+}
+
+.enca{
+	font-family: 'Playfair Display', serif;
 }
 
 .info { 
@@ -104,6 +114,7 @@ span{
 .cont-5{
 	background: #F9F9F9;
 	padding-top: 51px;
+	margin-bottom: 50px;
 }
 
 .pre{
@@ -118,15 +129,59 @@ span{
 }
 
 .save{
-	padding-bottom: 7px;
-	padding-top: 7px;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
 	font-size: 19px;
 	margin-bottom: 40px;
 	border-radius: 100px;
 	background: #4ABDE2;
+	color:white; 
 	border: none;
-	color: white;
 }
 
+.cont-6 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: gray 2px dashed;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	margin-bottom: 70px;
+}
+
+.con6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.btns{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.abc{
+	width: 50px;
+}
+
+.add{
+	padding-bottom: 30px;
+}
+
+.check{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 16px;
+	margin-bottom: 40px;
+	border-radius: 100px;
+	color:#4ABDE2; 
+	border: 2px #4ABDE2 solid;
+	background: white;
+}
