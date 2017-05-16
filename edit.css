@@ -16,10 +16,15 @@ p {
 .nav {
 	padding-bottom: 20px;
 	padding-top: 20px;
+	display: flex;
 }
 
 .log {
 	color: gray;
+}
+
+.men{
+	display: none;
 }
 
 .bor {
@@ -171,6 +176,7 @@ span{
 
 .add{
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 .check{
@@ -184,4 +190,89 @@ span{
 	color:#4ABDE2; 
 	border: 2px #4ABDE2 solid;
 	background: white;
+}
+
+@media (max-width: 1200px) {
+	.check{
+		font-size: 11px;
+	}
+
+	.add{
+		text-align: center;
+	}
+}
+
+@media (max-width: 991px) {
+	.check{
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.btns{
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.log{
+		display: none;
+	}
+
+	.bor{
+		display: none;
+	}
+
+	.login{
+		justify-content: flex-end;
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+
+	.men{
+		display: block;
+	}
+
+	.check{
+		width: 100%;
+	}
+
+	.cont-5{
+		padding-left: 5%;
+	}
+
+	.con6{
+		display: block;
+		width: 60%;
+	}
+
+	.cont6{
+		width: 100%;
+    	text-align: center;
+	}
+
+	.cu{
+		width: 71%;
+		padding-bottom: 10px;
+	}
+
+	.save{
+		width: 30%;
+	}
+
+	p{
+		margin: 0;
+	}
+}
+
+@media (max-width: 613px) {
+	.con6{
+		display: block;
+		width: 100%;
+	}
+
+	.btns{
+		width: 100%;
+	}
 }
