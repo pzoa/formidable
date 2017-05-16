@@ -44,7 +44,7 @@ p {
 	font-size: 16px;
 }
 
-li:hover{
+.abaj:hover{
 	font-weight: bold;
 	text-decoration: none;
 	border-bottom: 2px black solid;
