@@ -192,6 +192,11 @@ span{
 	background: white;
 }
 
+.check:hover{
+	color: white;
+	background: #4ABDE2;
+}
+
 @media (max-width: 1200px) {
 	.check{
 		font-size: 11px;
